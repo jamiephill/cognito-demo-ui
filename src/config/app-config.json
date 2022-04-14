@@ -1,15 +1,13 @@
 {
     "region": "us-east-2",
-    "userPool": "us-east-2_IsfhKYoWT",
-    "userPoolBaseUri": "https://auth-cognito-demo.arronharden.com",
-    "clientId": "6detnjso5uec0dfrcd5hhv9ll5",
-    "callbackUri": "https://d2sqffmy5m7m6j.cloudfront.net/",
-    "signoutUri": "https://d2sqffmy5m7m6j.cloudfront.net/",
+    "userPool": "us-east-2_5qjhR1ma8",
+    "userPoolBaseUri": "https://jph-mfn-adfs2.auth.us-east-2.amazoncognito.com",
+    "clientId": "63id8q2g30lhsp946u1snh3agr",
+    "callbackUri": "https://master.dsc6e0fe74ibk.amplifyapp.com/",
+    "signoutUri": "https://master.dsc6e0fe74ibk.amplifyapp.com/",
     "tokenScopes": [
         "openid",
         "email",
-        "profile",
-        "https://cognito-demo-api.arronharden.com/hello-world.all"
     ],
-    "apiUri": "https://cognito-demo-api.arronharden.com"
+    "apiUri": "https://api.example.com"
 }
