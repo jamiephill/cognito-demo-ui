@@ -7,7 +7,7 @@
     "signoutUri": "https://master.dsc6e0fe74ibk.amplifyapp.com/",
     "tokenScopes": [
         "openid",
-        "email",
+        "email"
     ],
     "apiUri": "https://api.example.com"
 }
