@@ -3,7 +3,7 @@
     "userPool": "us-east-2_5qjhR1ma8",
     "userPoolBaseUri": "https://jph-mfn-adfs2.auth.us-east-2.amazoncognito.com",
     "clientId": "63id8q2g30lhsp946u1snh3agr",
-    "callbackUri": "https://master.dsc6e0fe74ibk.amplifyapp.com/",
+    "callbackUri": "https://master.dsc6e0fe74ibk.amplifyapp.com/callback",
     "signoutUri": "https://master.dsc6e0fe74ibk.amplifyapp.com/",
     "tokenScopes": [
         "openid",
