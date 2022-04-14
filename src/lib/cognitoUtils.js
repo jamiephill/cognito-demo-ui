@@ -34,7 +34,8 @@ const createCognitoUserPool = () => new CognitoUserPool({
 // Get the URI of the hosted sign in screen
 const getCognitoSignInUri = () => {
   //const signinUri = `${appConfig.userPoolBaseUri}/login?response_type=code&client_id=${appConfig.clientId}&redirect_uri=${appConfig.callbackUri}`
-  const signinUri = `${appConfig.userPoolBaseUri}/login?response_type=token&client_id=${appConfig.clientId}&redirect_uri=${appConfig.callbackUri}&scope=email+openid`
+  //const signinUri = `${appConfig.userPoolBaseUri}/login?response_type=token&client_id=${appConfig.clientId}&redirect_uri=${appConfig.callbackUri}&scope=email+openid`
+  const signinUri = `${appConfig.userPoolBaseUri}/authorize?response_type=token&client_id=${appConfig.clientId}&redirect_uri=${appConfig.callbackUri}&scope=email+openid`
   return signinUri
 }
 
