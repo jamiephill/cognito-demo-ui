@@ -4,7 +4,7 @@
     "userPoolBaseUri": "https://jph-mfn-adfs2.auth.us-east-2.amazoncognito.com",
     "clientId": "63id8q2g30lhsp946u1snh3agr",
     "callbackUri": "https://master.dsc6e0fe74ibk.amplifyapp.com/callback",
-    "signoutUri": "https://jph-mfn-adfs2.auth.us-east-2.amazoncognito.com/logout?client_id=63id8q2g30lhsp946u1snh3agr&response_type=token&scope=email+openid&redirect_uri=https://master.dsc6e0fe74ibk.amplifyapp.com/",
+    "signoutUri": "https://master.dsc6e0fe74ibk.amplifyapp.com",
     "tokenScopes": [
         "openid",
         "email"
