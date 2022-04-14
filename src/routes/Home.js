@@ -67,7 +67,7 @@ class Home extends Component {
               </div>
               <p></p>
               <a className="Home-link" href="https://jph-mfn-adfs2.auth.us-east-2.amazoncognito.com/logout?response_type=token&client_id=63id8q2g30lhsp946u1snh3agr&logout_uri=https://master.dsc6e0fe74ibk.amplifyapp.com/&redirect_uri=https://master.dsc6e0fe74ibk.amplifyapp.com/callback&scope=email+openid">Sign out</a>
-              <br>
+              <br />
               <a className="Home-link" href="#" onClick={this.onSignOut}>Sign out (Broken)</a>
             </div>
           ) : (
