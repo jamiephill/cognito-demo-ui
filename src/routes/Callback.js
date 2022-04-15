@@ -26,6 +26,7 @@ class Callback extends Component {
 
   render () {
     // If there's no auth code in the URL or we're now logged into, redirect to the root page
+    console.log(this.props);
     if ((!this.props.location.hash && !this.props.location.search) || this.props.session.isLoggedIn) {
       return <Redirect to="/" />
     }
